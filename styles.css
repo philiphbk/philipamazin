@@ -1,0 +1,62 @@
+. {
+  $gradient: linear-gradient(180deg, rgba($white, .15), rgba($white, 0));
+  $primary: $blue;
+  $secondary: $gray-600;
+  $success: $green;
+  $info: $cyan;
+  $warning: $yellow;
+  $danger: $red;
+  $light: $gray-100;
+  $dark: $gray-900;
+
+}
+
+body {
+  background-image: var(--bs-gradient);
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+
+$display-font-sizes: (1: 5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem);
+
+$display-font-weight: 800;
+$display-line-height: $headings-line-height;
+
+p {}
+
+.bg-success {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
+
+img {
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #e3f2fd;
+}
+
+/* .list-inline-item {
+  background-color: #c8e3f7;
+  align-items: center;
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  margin-left: 5px;
+} */
